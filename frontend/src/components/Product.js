@@ -1,6 +1,8 @@
 import React from 'react'
 import { Card } from 'react-bootstrap'
 import Rating from '../components/Rating'
+import PropTypes from 'prop-types'
+
 
 const Product = ({ product}) => {
     return (
